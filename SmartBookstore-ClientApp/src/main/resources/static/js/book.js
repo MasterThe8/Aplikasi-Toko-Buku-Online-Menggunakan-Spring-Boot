@@ -293,7 +293,7 @@ function switchTab(evt, createMethod) {
 
 async function searchBooks() {
     const query = document.getElementById('query').value;
-    const apiKey = 'AIzaSyARtx_LM60Y38OXGdyZV_hZgWTQAmRf60c';
+    const apiKey = 'Your Google Books API Key Here';
     const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${apiKey}`;
 
     try {
